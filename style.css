@@ -69,3 +69,35 @@ footer {
 footer p {
     font-size: 1em;
 }
+
+.publication {
+    margin-bottom: 30px;
+}
+
+.pub-title {
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-bottom: 2px;
+}
+
+.pub-meta {
+    color: #666;
+    font-size: 0.95em;
+    margin-bottom: 2px;
+}
+
+.pub-authors {
+    font-size: 0.95em;
+    margin-bottom: 4px;
+}
+
+.pub-links a {
+    font-size: 0.9em;
+    color: #0074d9;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.pub-links a:hover {
+    text-decoration: underline;
+}
