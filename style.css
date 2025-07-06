@@ -101,3 +101,29 @@ footer p {
 .pub-links a:hover {
     text-decoration: underline;
 }
+
+/* Social Links below Profile Picture */
+.profile-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icon i {
+    margin-right: 8px;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Change color on hover */
+}
