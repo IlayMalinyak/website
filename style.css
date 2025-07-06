@@ -33,17 +33,34 @@ header h1 {
     margin-right: auto;
 }
 
-/* Social Links below Profile Picture */
-.profile-container {
-    text-align: center;
-    margin-top: 20px;
+/* Center the entire social link block */
+.social-links {
+    margin-top: 15px;
+    text-align: center; /* CENTER the inline elements inside */
 }
 
-
+/* Make sure each link is inline-block */
 .social-icon {
     display: inline-block;
-    margin-right: 15px;
+    margin: 0 10px;
     font-size: 18px;
+}
+
+/* Style the actual link */
+.social-icon a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+/* Inherit icon color from link */
+.social-icon a i {
+    margin-right: 8px;
+    color: inherit;
+}
+
+/* Hover effect */
+.social-icon a:hover {
+    color: #007bff;
 }
 
 
