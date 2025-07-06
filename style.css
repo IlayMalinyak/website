@@ -106,6 +106,7 @@ footer p {
 .profile-container {
     text-align: center;
     margin-top: 20px;
+    color: #f5f5f5;
 }
 
 .social-links {
@@ -116,7 +117,7 @@ footer p {
     display: inline-block;
     margin-right: 15px;
     font-size: 18px;
-    color: #f5f5f5;
+    color: #333;
     text-decoration: none;
 }
 
