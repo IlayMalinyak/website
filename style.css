@@ -39,9 +39,6 @@ header h1 {
     margin-top: 20px;
 }
 
-.social-links {
-    margin-top: 15px;
-}
 
 .social-icon {
     display: inline-block;
@@ -49,27 +46,6 @@ header h1 {
     font-size: 18px;
 }
 
-/* Style the link text */
-.social-icon a {
-    color: #f5f5f5 !important; /* Set text color with !important */
-    text-decoration: none; /* Remove any underline */
-}
-
-/* Ensure the icon and text inherit the color */
-.social-icon a i {
-    margin-right: 8px;
-    color: inherit; /* Inherit color from the anchor tag */
-}
-
-/* Hover effect for the link text */
-.social-icon a:hover {
-    color: #007bff !important; /* Change color on hover with !important */
-}
-
-/* Also add visited state to prevent purple links */
-.social-icon a:visited {
-    color: #f5f5f5 !important;
-}
 
 /* Header text styles */
 header p {
